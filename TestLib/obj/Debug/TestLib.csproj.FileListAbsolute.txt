@@ -1,0 +1,14 @@
+E:\07_TestProject\Android_Demo\ICE_Bind\TestLib\bin\Debug\TestLib.dll
+E:\07_TestProject\Android_Demo\ICE_Bind\TestLib\bin\Debug\TestLib.pdb
+E:\07_TestProject\Android_Demo\ICE_Bind\TestLib\bin\Debug\Xamarin.Android.Arch.Core.Common.dll
+E:\07_TestProject\Android_Demo\ICE_Bind\TestLib\bin\Debug\Xamarin.Android.Arch.Lifecycle.Common.dll
+E:\07_TestProject\Android_Demo\ICE_Bind\TestLib\bin\Debug\Xamarin.Android.Arch.Lifecycle.Runtime.dll
+E:\07_TestProject\Android_Demo\ICE_Bind\TestLib\bin\Debug\Xamarin.Android.Support.Annotations.dll
+E:\07_TestProject\Android_Demo\ICE_Bind\TestLib\bin\Debug\Xamarin.Android.Support.Compat.dll
+E:\07_TestProject\Android_Demo\ICE_Bind\TestLib\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+E:\07_TestProject\Android_Demo\ICE_Bind\TestLib\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+E:\07_TestProject\Android_Demo\ICE_Bind\TestLib\bin\Debug\Xamarin.Android.Support.Fragment.dll
+E:\07_TestProject\Android_Demo\ICE_Bind\TestLib\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+E:\07_TestProject\Android_Demo\ICE_Bind\TestLib\bin\Debug\Xamarin.Android.Support.v4.dll
+E:\07_TestProject\Android_Demo\ICE_Bind\TestLib\obj\Debug\TestLib.dll
+E:\07_TestProject\Android_Demo\ICE_Bind\TestLib\obj\Debug\TestLib.pdb

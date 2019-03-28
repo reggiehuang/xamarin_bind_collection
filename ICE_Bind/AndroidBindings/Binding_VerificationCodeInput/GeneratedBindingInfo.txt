@@ -1,0 +1,16 @@
+Binding for:
+com.github.liuguangli:VerificationCodeInput:1.3
+
+Dependencies:
+
+VerificationCodeInput-1.3.aar,    Path=C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.liuguangli\VerificationCodeInput\1.3\740827cc0bb4ea16865b7a72bce60191c883d766\VerificationCodeInput-1.3.aar
+	animated-vector-drawable-24.2.1.aar,    Path=C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\animated-vector-drawable\24.2.1\animated-vector-drawable-24.2.1.aar
+	appcompat-v7-24.2.1.aar,    Path=C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\appcompat-v7\24.2.1\appcompat-v7-24.2.1.aar
+	support-annotations-24.2.1.jar,    Path=C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar
+	support-compat-24.2.1.aar,    Path=C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-compat\24.2.1\support-compat-24.2.1.aar
+	support-core-ui-24.2.1.aar,    Path=C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-core-ui\24.2.1\support-core-ui-24.2.1.aar
+	support-core-utils-24.2.1.aar,    Path=C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-core-utils\24.2.1\support-core-utils-24.2.1.aar
+	support-fragment-24.2.1.aar,    Path=C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-fragment\24.2.1\support-fragment-24.2.1.aar
+	support-media-compat-24.2.1.aar,    Path=C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-media-compat\24.2.1\support-media-compat-24.2.1.aar
+	support-v4-24.2.1.aar,    Path=C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\24.2.1\support-v4-24.2.1.aar
+	support-vector-drawable-24.2.1.aar,    Path=C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-vector-drawable\24.2.1\support-vector-drawable-24.2.1.aar

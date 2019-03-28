@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<api>
+  <package name="com.flyco.tablayout">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.flyco.tablayout.BuildConfig" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="true" name="APPLICATION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.flyco.tablayout&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;debug&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="FLAVOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_CODE" static="true" transient="false" type="int" type-generic-aware="int" value="212" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;2.1.2&quot;" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CommonTabLayout.1" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CommonTabLayout.IndicatorPoint" static="false" visibility="">
+      <field deprecated="not deprecated" final="false" name="left" static="false" transient="false" type="float" type-generic-aware="float" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="right" static="false" transient="false" type="float" type-generic-aware="float" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CommonTabLayout.PointEvaluator" static="false" visibility="">
+      <implements name="android.animation.TypeEvaluator" name-generic-aware="android.animation.TypeEvaluator&lt;com.flyco.tablayout.CommonTabLayout.IndicatorPoint&gt;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="evaluate" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float"></parameter>
+        <parameter name="p1" type="java.lang.Object"></parameter>
+        <parameter name="p2" type="java.lang.Object"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SegmentTabLayout.1" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.view.View"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SegmentTabLayout.IndicatorPoint" static="false" visibility="">
+      <field deprecated="not deprecated" final="false" name="left" static="false" transient="false" type="float" type-generic-aware="float" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="right" static="false" transient="false" type="float" type-generic-aware="float" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SegmentTabLayout.PointEvaluator" static="false" visibility="">
+      <implements name="android.animation.TypeEvaluator" name-generic-aware="android.animation.TypeEvaluator&lt;com.flyco.tablayout.SegmentTabLayout.IndicatorPoint&gt;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="evaluate" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float"></parameter>
+        <parameter name="p1" type="java.lang.Object"></parameter>
+        <parameter name="p2" type="java.lang.Object"></parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.flyco.tablayout.listener">
+    <interface abstract="true" deprecated="not deprecated" final="false" name="CustomTabEntity" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getTabSelectedIcon" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getTabTitle" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getTabUnselectedIcon" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="OnTabSelectListener" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onTabReselect" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onTabSelect" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+    </interface>
+  </package>
+  <package name="com.flyco.tablayout.utils">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="UnreadMsgUtils" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="UnreadMsgUtils" static="false" type="com.flyco.tablayout.utils.UnreadMsgUtils" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSize" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.flyco.tablayout.widget.MsgView"></parameter>
+        <parameter name="p1" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="show" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.flyco.tablayout.widget.MsgView"></parameter>
+        <parameter name="p1" type="int"></parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.flyco.tablayout.widget">
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.TextView" extends-generic-aware="android.widget.TextView" final="false" name="MsgView" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="MsgView" static="false" type="com.flyco.tablayout.widget.MsgView" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="android.util.AttributeSet"></parameter>
+        <parameter name="p2" type="int"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="MsgView" static="false" type="com.flyco.tablayout.widget.MsgView" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="android.util.AttributeSet"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="MsgView" static="false" type="com.flyco.tablayout.widget.MsgView" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="dp2px" native="false" return="int" static="false" synchronized="false" visibility="protected">
+        <parameter name="p0" type="float"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getBackgroundColor" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCornerRadius" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getStrokeColor" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getStrokeWidth" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isRadiusHalfHeight" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isWidthHeightEqual" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setBgSelector" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCornerRadius" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIsRadiusHalfHeight" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIsWidthHeightEqual" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setStrokeColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setStrokeWidth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sp2px" native="false" return="int" static="false" synchronized="false" visibility="protected">
+        <parameter name="p0" type="float"></parameter>
+      </method>
+    </class>
+  </package>
+</api>

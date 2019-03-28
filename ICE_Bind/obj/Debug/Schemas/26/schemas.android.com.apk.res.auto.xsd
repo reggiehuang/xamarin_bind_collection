@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation>v26</xs:documentation>
+    <xs:documentation>2019/2/12 17:32:37</xs:documentation>
+  </xs:annotation>
+  <xs:attribute name="mv_backgroundColor">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/notification_action_color_filter" />
+            <xs:enumeration value="@color/notification_icon_bg_color" />
+            <xs:enumeration value="@color/notification_material_background_media_default_color" />
+            <xs:enumeration value="@color/primary_text_default_material_dark" />
+            <xs:enumeration value="@color/ripple_material_light" />
+            <xs:enumeration value="@color/secondary_text_default_material_dark" />
+            <xs:enumeration value="@color/secondary_text_default_material_light" />
+            <xs:enumeration value="@android:color/background_dark" />
+            <xs:enumeration value="@android:color/background_light" />
+            <xs:enumeration value="@android:color/black" />
+            <xs:enumeration value="@android:color/darker_gray" />
+            <xs:enumeration value="@android:color/holo_blue_bright" />
+            <xs:enumeration value="@android:color/holo_blue_dark" />
+            <xs:enumeration value="@android:color/holo_blue_light" />
+            <xs:enumeration value="@android:color/holo_green_dark" />
+            <xs:enumeration value="@android:color/holo_green_light" />
+            <xs:enumeration value="@android:color/holo_orange_dark" />
+            <xs:enumeration value="@android:color/holo_orange_light" />
+            <xs:enumeration value="@android:color/holo_purple" />
+            <xs:enumeration value="@android:color/holo_red_dark" />
+            <xs:enumeration value="@android:color/holo_red_light" />
+            <xs:enumeration value="@android:color/primary_text_dark" />
+            <xs:enumeration value="@android:color/primary_text_dark_nodisable" />
+            <xs:enumeration value="@android:color/primary_text_light" />
+            <xs:enumeration value="@android:color/primary_text_light_nodisable" />
+            <xs:enumeration value="@android:color/secondary_text_dark" />
+            <xs:enumeration value="@android:color/secondary_text_dark_nodisable" />
+            <xs:enumeration value="@android:color/secondary_text_light" />
+            <xs:enumeration value="@android:color/secondary_text_light_nodisable" />
+            <xs:enumeration value="@android:color/tab_indicator_text" />
+            <xs:enumeration value="@android:color/tertiary_text_dark" />
+            <xs:enumeration value="@android:color/tertiary_text_light" />
+            <xs:enumeration value="@android:color/transparent" />
+            <xs:enumeration value="@android:color/white" />
+            <xs:enumeration value="@android:color/widget_edittext_dark" />
+            <xs:enumeration value="?android:attr/actionMenuTextColor" />
+            <xs:enumeration value="?android:attr/colorAccent" />
+            <xs:enumeration value="?android:attr/colorActivatedHighlight" />
+            <xs:enumeration value="?android:attr/colorBackground" />
+            <xs:enumeration value="?android:attr/colorBackgroundCacheHint" />
+            <xs:enumeration value="?android:attr/colorBackgroundFloating" />
+            <xs:enumeration value="?android:attr/colorButtonNormal" />
+            <xs:enumeration value="?android:attr/colorControlActivated" />
+            <xs:enumeration value="?android:attr/colorControlHighlight" />
+            <xs:enumeration value="?android:attr/colorControlNormal" />
+            <xs:enumeration value="?android:attr/colorEdgeEffect" />
+            <xs:enumeration value="?android:attr/colorError" />
+            <xs:enumeration value="?android:attr/colorFocusedHighlight" />
+            <xs:enumeration value="?android:attr/colorForeground" />
+            <xs:enumeration value="?android:attr/colorForegroundInverse" />
+            <xs:enumeration value="?android:attr/colorLongPressedHighlight" />
+            <xs:enumeration value="?android:attr/colorMultiSelectHighlight" />
+            <xs:enumeration value="?android:attr/colorPressedHighlight" />
+            <xs:enumeration value="?android:attr/colorPrimary" />
+            <xs:enumeration value="?android:attr/colorPrimaryDark" />
+            <xs:enumeration value="?android:attr/colorSecondary" />
+            <xs:enumeration value="?android:attr/editTextColor" />
+            <xs:enumeration value="?android:attr/fastScrollTextColor" />
+            <xs:enumeration value="?android:attr/panelBackground" />
+            <xs:enumeration value="?android:attr/panelColorBackground" />
+            <xs:enumeration value="?android:attr/panelColorForeground" />
+            <xs:enumeration value="?android:attr/panelFullBackground" />
+            <xs:enumeration value="?android:attr/textColorAlertDialogListItem" />
+            <xs:enumeration value="?android:attr/textColorHighlightInverse" />
+            <xs:enumeration value="?android:attr/textColorHintInverse" />
+            <xs:enumeration value="?android:attr/textColorLinkInverse" />
+            <xs:enumeration value="?android:attr/textColorPrimary" />
+            <xs:enumeration value="?android:attr/textColorPrimaryDisableOnly" />
+            <xs:enumeration value="?android:attr/textColorPrimaryInverse" />
+            <xs:enumeration value="?android:attr/textColorPrimaryInverseDisableOnly" />
+            <xs:enumeration value="?android:attr/textColorPrimaryInverseNoDisable" />
+            <xs:enumeration value="?android:attr/textColorPrimaryNoDisable" />
+            <xs:enumeration value="?android:attr/textColorSecondary" />
+            <xs:enumeration value="?android:attr/textColorSecondaryInverse" />
+            <xs:enumeration value="?android:attr/textColorSecondaryInverseNoDisable" />
+            <xs:enumeration value="?android:attr/textColorSecondaryNoDisable" />
+            <xs:enumeration value="?android:attr/textColorTertiary" />
+            <xs:enumeration value="?android:attr/textColorTertiaryInverse" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="mv_cornerRadius">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/compat_button_inset_horizontal_material" />
+            <xs:enumeration value="@dimen/compat_button_inset_vertical_material" />
+            <xs:enumeration value="@dimen/compat_button_padding_horizontal_material" />
+            <xs:enumeration value="@dimen/compat_button_padding_vertical_material" />
+            <xs:enumeration value="@dimen/compat_control_corner_material" />
+            <xs:enumeration value="@dimen/notification_action_icon_size" />
+            <xs:enumeration value="@dimen/notification_action_text_size" />
+            <xs:enumeration value="@dimen/notification_big_circle_margin" />
+            <xs:enumeration value="@dimen/notification_content_margin_start" />
+            <xs:enumeration value="@dimen/notification_large_icon_height" />
+            <xs:enumeration value="@dimen/notification_large_icon_width" />
+            <xs:enumeration value="@dimen/notification_main_column_padding_top" />
+            <xs:enumeration value="@dimen/notification_media_narrow_margin" />
+            <xs:enumeration value="@dimen/notification_right_icon_size" />
+            <xs:enumeration value="@dimen/notification_right_side_padding_top" />
+            <xs:enumeration value="@dimen/notification_small_icon_background_padding" />
+            <xs:enumeration value="@dimen/notification_small_icon_size_as_large" />
+            <xs:enumeration value="@dimen/notification_subtext_size" />
+            <xs:enumeration value="@dimen/notification_top_pad" />
+            <xs:enumeration value="@dimen/notification_top_pad_large_text" />
+            <xs:enumeration value="@android:dimen/app_icon_size" />
+            <xs:enumeration value="@android:dimen/dialog_min_width_major" />
+            <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
+            <xs:enumeration value="@android:dimen/thumbnail_height" />
+            <xs:enumeration value="@android:dimen/thumbnail_width" />
+            <xs:enumeration value="?android:attr/actionBarSize" />
+            <xs:enumeration value="?android:attr/ambientShadowAlpha" />
+            <xs:enumeration value="?android:attr/backgroundDimAmount" />
+            <xs:enumeration value="?android:attr/dialogPreferredPadding" />
+            <xs:enumeration value="?android:attr/disabledAlpha" />
+            <xs:enumeration value="?android:attr/expandableListPreferredChildIndicatorLeft" />
+            <xs:enumeration value="?android:attr/expandableListPreferredChildIndicatorRight" />
+            <xs:enumeration value="?android:attr/expandableListPreferredChildPaddingLeft" />
+            <xs:enumeration value="?android:attr/expandableListPreferredItemIndicatorLeft" />
+            <xs:enumeration value="?android:attr/expandableListPreferredItemIndicatorRight" />
+            <xs:enumeration value="?android:attr/expandableListPreferredItemPaddingLeft" />
+            <xs:enumeration value="?android:attr/listPreferredItemHeight" />
+            <xs:enumeration value="?android:attr/listPreferredItemHeightLarge" />
+            <xs:enumeration value="?android:attr/listPreferredItemHeightSmall" />
+            <xs:enumeration value="?android:attr/listPreferredItemPaddingEnd" />
+            <xs:enumeration value="?android:attr/listPreferredItemPaddingLeft" />
+            <xs:enumeration value="?android:attr/listPreferredItemPaddingRight" />
+            <xs:enumeration value="?android:attr/listPreferredItemPaddingStart" />
+            <xs:enumeration value="?android:attr/primaryContentAlpha" />
+            <xs:enumeration value="?android:attr/secondaryContentAlpha" />
+            <xs:enumeration value="?android:attr/spotShadowAlpha" />
+            <xs:enumeration value="?android:attr/windowTitleSize" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="mv_isRadiusHalfHeight">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="false" />
+            <xs:enumeration value="true" />
+            <xs:enumeration value="@bool/abc_action_bar_embed_tabs" />
+            <xs:enumeration value="?android:attr/backgroundDimEnabled" />
+            <xs:enumeration value="?android:attr/windowActionBar" />
+            <xs:enumeration value="?android:attr/windowActionBarOverlay" />
+            <xs:enumeration value="?android:attr/windowActionModeOverlay" />
+            <xs:enumeration value="?android:attr/windowActivityTransitions" />
+            <xs:enumeration value="?android:attr/windowAllowEnterTransitionOverlap" />
+            <xs:enumeration value="?android:attr/windowAllowReturnTransitionOverlap" />
+            <xs:enumeration value="?android:attr/windowCloseOnTouchOutside" />
+            <xs:enumeration value="?android:attr/windowContentTransitions" />
+            <xs:enumeration value="?android:attr/windowDisablePreview" />
+            <xs:enumeration value="?android:attr/windowEnableSplitTouch" />
+            <xs:enumeration value="?android:attr/windowFullscreen" />
+            <xs:enumeration value="?android:attr/windowIsFloating" />
+            <xs:enumeration value="?android:attr/windowIsTranslucent" />
+            <xs:enumeration value="?android:attr/windowNoDisplay" />
+            <xs:enumeration value="?android:attr/windowNoTitle" />
+            <xs:enumeration value="?android:attr/windowOverscan" />
+            <xs:enumeration value="?android:attr/windowSharedElementsUseOverlay" />
+            <xs:enumeration value="?android:attr/windowShowWallpaper" />
+            <xs:enumeration value="?android:attr/windowSwipeToDismiss" />
+            <xs:enumeration value="?android:attr/windowTranslucentNavigation" />
+            <xs:enumeration value="?android:attr/windowTranslucentStatus" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="mv_isWidthHeightEqual">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="false" />
+            <xs:enumeration value="true" />
+            <xs:enumeration value="@bool/abc_action_bar_embed_tabs" />
+            <xs:enumeration value="?android:attr/backgroundDimEnabled" />
+            <xs:enumeration value="?android:attr/windowActionBar" />
+            <xs:enumeration value="?android:attr/windowActionBarOverlay" />
+            <xs:enumeration value="?android:attr/windowActionModeOverlay" />
+            <xs:enumeration value="?android:attr/windowActivityTransitions" />
+            <xs:enumeration value="?android:attr/windowAllowEnterTransitionOverlap" />
+            <xs:enumeration value="?android:attr/windowAllowReturnTransitionOverlap" />
+            <xs:enumeration value="?android:attr/windowCloseOnTouchOutside" />
+            <xs:enumeration value="?android:attr/windowContentTransitions" />
+            <xs:enumeration value="?android:attr/windowDisablePreview" />
+            <xs:enumeration value="?android:attr/windowEnableSplitTouch" />
+            <xs:enumeration value="?android:attr/windowFullscreen" />
+            <xs:enumeration value="?android:attr/windowIsFloating" />
+            <xs:enumeration value="?android:attr/windowIsTranslucent" />
+            <xs:enumeration value="?android:attr/windowNoDisplay" />
+            <xs:enumeration value="?android:attr/windowNoTitle" />
+            <xs:enumeration value="?android:attr/windowOverscan" />
+            <xs:enumeration value="?android:attr/windowSharedElementsUseOverlay" />
+            <xs:enumeration value="?android:attr/windowShowWallpaper" />
+            <xs:enumeration value="?android:attr/windowSwipeToDismiss" />
+            <xs:enumeration value="?android:attr/windowTranslucentNavigation" />
+            <xs:enumeration value="?android:attr/windowTranslucentStatus" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="mv_strokeColor">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/notification_action_color_filter" />
+            <xs:enumeration value="@color/notification_icon_bg_color" />
+            <xs:enumeration value="@color/notification_material_background_media_default_color" />
+            <xs:enumeration value="@color/primary_text_default_material_dark" />
+            <xs:enumeration value="@color/ripple_material_light" />
+            <xs:enumeration value="@color/secondary_text_default_material_dark" />
+            <xs:enumeration value="@color/secondary_text_default_material_light" />
+            <xs:enumeration value="@android:color/background_dark" />
+            <xs:enumeration value="@android:color/background_light" />
+            <xs:enumeration value="@android:color/black" />
+            <xs:enumeration value="@android:color/darker_gray" />
+            <xs:enumeration value="@android:color/holo_blue_bright" />
+            <xs:enumeration value="@android:color/holo_blue_dark" />
+            <xs:enumeration value="@android:color/holo_blue_light" />
+            <xs:enumeration value="@android:color/holo_green_dark" />
+            <xs:enumeration value="@android:color/holo_green_light" />
+            <xs:enumeration value="@android:color/holo_orange_dark" />
+            <xs:enumeration value="@android:color/holo_orange_light" />
+            <xs:enumeration value="@android:color/holo_purple" />
+            <xs:enumeration value="@android:color/holo_red_dark" />
+            <xs:enumeration value="@android:color/holo_red_light" />
+            <xs:enumeration value="@android:color/primary_text_dark" />
+            <xs:enumeration value="@android:color/primary_text_dark_nodisable" />
+            <xs:enumeration value="@android:color/primary_text_light" />
+            <xs:enumeration value="@android:color/primary_text_light_nodisable" />
+            <xs:enumeration value="@android:color/secondary_text_dark" />
+            <xs:enumeration value="@android:color/secondary_text_dark_nodisable" />
+            <xs:enumeration value="@android:color/secondary_text_light" />
+            <xs:enumeration value="@android:color/secondary_text_light_nodisable" />
+            <xs:enumeration value="@android:color/tab_indicator_text" />
+            <xs:enumeration value="@android:color/tertiary_text_dark" />
+            <xs:enumeration value="@android:color/tertiary_text_light" />
+            <xs:enumeration value="@android:color/transparent" />
+            <xs:enumeration value="@android:color/white" />
+            <xs:enumeration value="@android:color/widget_edittext_dark" />
+            <xs:enumeration value="?android:attr/actionMenuTextColor" />
+            <xs:enumeration value="?android:attr/colorAccent" />
+            <xs:enumeration value="?android:attr/colorActivatedHighlight" />
+            <xs:enumeration value="?android:attr/colorBackground" />
+            <xs:enumeration value="?android:attr/colorBackgroundCacheHint" />
+            <xs:enumeration value="?android:attr/colorBackgroundFloating" />
+            <xs:enumeration value="?android:attr/colorButtonNormal" />
+            <xs:enumeration value="?android:attr/colorControlActivated" />
+            <xs:enumeration value="?android:attr/colorControlHighlight" />
+            <xs:enumeration value="?android:attr/colorControlNormal" />
+            <xs:enumeration value="?android:attr/colorEdgeEffect" />
+            <xs:enumeration value="?android:attr/colorError" />
+            <xs:enumeration value="?android:attr/colorFocusedHighlight" />
+            <xs:enumeration value="?android:attr/colorForeground" />
+            <xs:enumeration value="?android:attr/colorForegroundInverse" />
+            <xs:enumeration value="?android:attr/colorLongPressedHighlight" />
+            <xs:enumeration value="?android:attr/colorMultiSelectHighlight" />
+            <xs:enumeration value="?android:attr/colorPressedHighlight" />
+            <xs:enumeration value="?android:attr/colorPrimary" />
+            <xs:enumeration value="?android:attr/colorPrimaryDark" />
+            <xs:enumeration value="?android:attr/colorSecondary" />
+            <xs:enumeration value="?android:attr/editTextColor" />
+            <xs:enumeration value="?android:attr/fastScrollTextColor" />
+            <xs:enumeration value="?android:attr/panelBackground" />
+            <xs:enumeration value="?android:attr/panelColorBackground" />
+            <xs:enumeration value="?android:attr/panelColorForeground" />
+            <xs:enumeration value="?android:attr/panelFullBackground" />
+            <xs:enumeration value="?android:attr/textColorAlertDialogListItem" />
+            <xs:enumeration value="?android:attr/textColorHighlightInverse" />
+            <xs:enumeration value="?android:attr/textColorHintInverse" />
+            <xs:enumeration value="?android:attr/textColorLinkInverse" />
+            <xs:enumeration value="?android:attr/textColorPrimary" />
+            <xs:enumeration value="?android:attr/textColorPrimaryDisableOnly" />
+            <xs:enumeration value="?android:attr/textColorPrimaryInverse" />
+            <xs:enumeration value="?android:attr/textColorPrimaryInverseDisableOnly" />
+            <xs:enumeration value="?android:attr/textColorPrimaryInverseNoDisable" />
+            <xs:enumeration value="?android:attr/textColorPrimaryNoDisable" />
+            <xs:enumeration value="?android:attr/textColorSecondary" />
+            <xs:enumeration value="?android:attr/textColorSecondaryInverse" />
+            <xs:enumeration value="?android:attr/textColorSecondaryInverseNoDisable" />
+            <xs:enumeration value="?android:attr/textColorSecondaryNoDisable" />
+            <xs:enumeration value="?android:attr/textColorTertiary" />
+            <xs:enumeration value="?android:attr/textColorTertiaryInverse" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="mv_strokeWidth">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/compat_button_inset_horizontal_material" />
+            <xs:enumeration value="@dimen/compat_button_inset_vertical_material" />
+            <xs:enumeration value="@dimen/compat_button_padding_horizontal_material" />
+            <xs:enumeration value="@dimen/compat_button_padding_vertical_material" />
+            <xs:enumeration value="@dimen/compat_control_corner_material" />
+            <xs:enumeration value="@dimen/notification_action_icon_size" />
+            <xs:enumeration value="@dimen/notification_action_text_size" />
+            <xs:enumeration value="@dimen/notification_big_circle_margin" />
+            <xs:enumeration value="@dimen/notification_content_margin_start" />
+            <xs:enumeration value="@dimen/notification_large_icon_height" />
+            <xs:enumeration value="@dimen/notification_large_icon_width" />
+            <xs:enumeration value="@dimen/notification_main_column_padding_top" />
+            <xs:enumeration value="@dimen/notification_media_narrow_margin" />
+            <xs:enumeration value="@dimen/notification_right_icon_size" />
+            <xs:enumeration value="@dimen/notification_right_side_padding_top" />
+            <xs:enumeration value="@dimen/notification_small_icon_background_padding" />
+            <xs:enumeration value="@dimen/notification_small_icon_size_as_large" />
+            <xs:enumeration value="@dimen/notification_subtext_size" />
+            <xs:enumeration value="@dimen/notification_top_pad" />
+            <xs:enumeration value="@dimen/notification_top_pad_large_text" />
+            <xs:enumeration value="@android:dimen/app_icon_size" />
+            <xs:enumeration value="@android:dimen/dialog_min_width_major" />
+            <xs:enumeration value="@android:dimen/dialog_min_width_minor" />
+            <xs:enumeration value="@android:dimen/thumbnail_height" />
+            <xs:enumeration value="@android:dimen/thumbnail_width" />
+            <xs:enumeration value="?android:attr/actionBarSize" />
+            <xs:enumeration value="?android:attr/ambientShadowAlpha" />
+            <xs:enumeration value="?android:attr/backgroundDimAmount" />
+            <xs:enumeration value="?android:attr/dialogPreferredPadding" />
+            <xs:enumeration value="?android:attr/disabledAlpha" />
+            <xs:enumeration value="?android:attr/expandableListPreferredChildIndicatorLeft" />
+            <xs:enumeration value="?android:attr/expandableListPreferredChildIndicatorRight" />
+            <xs:enumeration value="?android:attr/expandableListPreferredChildPaddingLeft" />
+            <xs:enumeration value="?android:attr/expandableListPreferredItemIndicatorLeft" />
+            <xs:enumeration value="?android:attr/expandableListPreferredItemIndicatorRight" />
+            <xs:enumeration value="?android:attr/expandableListPreferredItemPaddingLeft" />
+            <xs:enumeration value="?android:attr/listPreferredItemHeight" />
+            <xs:enumeration value="?android:attr/listPreferredItemHeightLarge" />
+            <xs:enumeration value="?android:attr/listPreferredItemHeightSmall" />
+            <xs:enumeration value="?android:attr/listPreferredItemPaddingEnd" />
+            <xs:enumeration value="?android:attr/listPreferredItemPaddingLeft" />
+            <xs:enumeration value="?android:attr/listPreferredItemPaddingRight" />
+            <xs:enumeration value="?android:attr/listPreferredItemPaddingStart" />
+            <xs:enumeration value="?android:attr/primaryContentAlpha" />
+            <xs:enumeration value="?android:attr/secondaryContentAlpha" />
+            <xs:enumeration value="?android:attr/spotShadowAlpha" />
+            <xs:enumeration value="?android:attr/windowTitleSize" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+</xs:schema>

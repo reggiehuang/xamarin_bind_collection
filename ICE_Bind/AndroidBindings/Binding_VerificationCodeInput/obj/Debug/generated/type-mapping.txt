@@ -1,0 +1,12 @@
+com/dalimao/corelibrary/BuildConfig = Com.Dalimao.Corelibrary.BuildConfig
+  <init>()V = .ctor()
+  APPLICATION_ID = ApplicationId
+  BUILD_TYPE = BuildType
+  DEBUG = Debug
+  FLAVOR = Flavor
+  VERSION_CODE = VersionCode
+  VERSION_NAME = VersionName
+com/dalimao/corelibrary/VerificationCodeInput = Com.Dalimao.Corelibrary.VerificationCodeInput
+  <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V = .ctor(Android.Content.Context, Android.Util.IAttributeSet)
+  onLayout(ZIIII)V = OnLayout(bool, int, int, int, int)
+  setOnCompleteListener(Lcom/dalimao/corelibrary/VerificationCodeInput$Listener;)V = SetOnCompleteListener(Com.Dalimao.Corelibrary.VerificationCodeInput.IListener)

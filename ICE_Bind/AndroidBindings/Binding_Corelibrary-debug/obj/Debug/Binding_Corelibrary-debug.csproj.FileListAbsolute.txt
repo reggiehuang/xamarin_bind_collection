@@ -1,0 +1,4 @@
+E:\07_TestProject\Android_Demo\ICE_Bind\ICE_Bind\AndroidBindings\Binding_Corelibrary-debug\bin\Debug\Binding_Corelibrary-debug.dll
+E:\07_TestProject\Android_Demo\ICE_Bind\ICE_Bind\AndroidBindings\Binding_Corelibrary-debug\bin\Debug\Binding_Corelibrary-debug.pdb
+E:\07_TestProject\Android_Demo\ICE_Bind\ICE_Bind\AndroidBindings\Binding_Corelibrary-debug\obj\Debug\Binding_Corelibrary-debug.dll
+E:\07_TestProject\Android_Demo\ICE_Bind\ICE_Bind\AndroidBindings\Binding_Corelibrary-debug\obj\Debug\Binding_Corelibrary-debug.pdb

@@ -1,0 +1,5 @@
+E:\07_TestProject\Android_Demo\ICE_Bind\ICE_Bind\AndroidBindings\Binding_Corelibrary\bin\Debug\Binding_Corelibrary.dll
+E:\07_TestProject\Android_Demo\ICE_Bind\ICE_Bind\AndroidBindings\Binding_Corelibrary\bin\Debug\Binding_Corelibrary.pdb
+E:\07_TestProject\Android_Demo\ICE_Bind\ICE_Bind\AndroidBindings\Binding_Corelibrary\obj\Debug\Binding_Corelibrary.csprojResolveAssemblyReference.cache
+E:\07_TestProject\Android_Demo\ICE_Bind\ICE_Bind\AndroidBindings\Binding_Corelibrary\obj\Debug\Binding_Corelibrary.dll
+E:\07_TestProject\Android_Demo\ICE_Bind\ICE_Bind\AndroidBindings\Binding_Corelibrary\obj\Debug\Binding_Corelibrary.pdb

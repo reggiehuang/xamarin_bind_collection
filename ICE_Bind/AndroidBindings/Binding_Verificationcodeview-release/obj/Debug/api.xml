@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="com.jyn.vcview">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.jyn.vcview.BuildConfig" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="APPLICATION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.jyn.vcview&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="BUILD_TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLAVOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="VERSION_CODE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="VERSION_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;1.0&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.widget.LinearLayout" extends-generic-aware="android.widget.LinearLayout" final="false" name="VerificationCodeView" static="false" visibility="public">
+<implements name="android.text.TextWatcher" name-generic-aware="android.text.TextWatcher">
+</implements>
+<implements name="android.view.View.OnFocusChangeListener" name-generic-aware="android.view.View.OnFocusChangeListener">
+</implements>
+<implements name="android.view.View.OnKeyListener" name-generic-aware="android.view.View.OnKeyListener">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="VerificationCodeView" static="false" type="com.jyn.vcview.VerificationCodeView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="afterTextChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.text.Editable">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="beforeTextChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.CharSequence">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getOnCodeFinishListener" native="false" return="com.jyn.vcview.VerificationCodeView.OnCodeFinishListener" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getmCursorDrawable" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getmEtInputType" native="false" return="com.jyn.vcview.VerificationCodeView.VCInputType" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getmEtNumber" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getmEtTextBg" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getmEtTextColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getmEtTextSize" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getmEtWidth" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onFocusChange" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onKey" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="android.view.KeyEvent">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onTextChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.CharSequence">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setOnCodeFinishListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.jyn.vcview.VerificationCodeView.OnCodeFinishListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setmCursorDrawable" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setmEtInputType" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.jyn.vcview.VerificationCodeView.VCInputType">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setmEtNumber" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setmEtTextBg" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setmEtTextColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setmEtTextSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setmEtWidth" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="VerificationCodeView.1" static="true" visibility=""/>
+<interface abstract="true" deprecated="not deprecated" final="false" name="VerificationCodeView.OnCodeFinishListener" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onComplete" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.jyn.vcview.VerificationCodeView.VCInputType&gt;" final="true" name="VerificationCodeView.VCInputType" static="true" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.jyn.vcview.VerificationCodeView.VCInputType" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.jyn.vcview.VerificationCodeView.VCInputType[]" static="true" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="true" name="NUMBER" static="true" transient="false" type="com.jyn.vcview.VerificationCodeView.VCInputType" type-generic-aware="com.jyn.vcview.VerificationCodeView.VCInputType" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="NUMBERPASSWORD" static="true" transient="false" type="com.jyn.vcview.VerificationCodeView.VCInputType" type-generic-aware="com.jyn.vcview.VerificationCodeView.VCInputType" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="TEXT" static="true" transient="false" type="com.jyn.vcview.VerificationCodeView.VCInputType" type-generic-aware="com.jyn.vcview.VerificationCodeView.VCInputType" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="TEXTPASSWORD" static="true" transient="false" type="com.jyn.vcview.VerificationCodeView.VCInputType" type-generic-aware="com.jyn.vcview.VerificationCodeView.VCInputType" visibility="public" volatile="false">
+</field>
+</class>
+</package>
+</api>

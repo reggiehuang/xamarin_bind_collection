@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="vericationCodeView"><attr format="integer" name="vcv_et_number"/><attr name="vcv_et_inputType">
+            <enum name="number" value="0"/>
+            <enum name="numberPassword" value="1"/>
+            <enum name="text" value="2"/>
+            <enum name="textPassword" value="3"/>
+        </attr><attr format="dimension|reference" name="vcv_et_width"/><attr format="color|reference" name="vcv_et_text_color"/><attr format="dimension|reference" name="vcv_et_text_size"/><attr format="reference" name="vcv_et_bg"/><attr format="reference" name="vcv_et_cursor"/></declare-styleable>
+    <string name="app_name">VerificationCodeView</string>
+</resources>

@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<api>
+  <package name="com.itheima.wheelpicker">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.itheima.wheelpicker.BuildConfig" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="true" name="APPLICATION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.itheima.wheelpicker&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="FLAVOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_CODE" static="true" transient="false" type="int" type-generic-aware="int" value="7" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;1.1.2&quot;" visibility="public" volatile="false"></field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IDebug" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="setDebug" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IWheelPicker" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getCurrentItemPosition" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getCurtainColor" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getData" native="false" return="java.util.List" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getIndicatorColor" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getIndicatorSize" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getItemAlign" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getItemSpace" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getItemTextColor" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getItemTextSize" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getMaximumWidthText" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getMaximumWidthTextPosition" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getSelectedItemPosition" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getSelectedItemTextColor" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getTypeface" native="false" return="android.graphics.Typeface" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getVisibleItemCount" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="hasAtmospheric" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="hasCurtain" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="hasIndicator" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="hasSameWidth" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="isCurved" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="isCyclic" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setAtmospheric" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setCurtain" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setCurtainColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setCurved" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setCyclic" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setData" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.List"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setIndicator" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setIndicatorColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setIndicatorSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setItemAlign" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setItemSpace" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setItemTextColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setItemTextSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setMaximumWidthText" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setMaximumWidthTextPosition" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setOnItemSelectedListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.itheima.wheelpicker.WheelPicker.OnItemSelectedListener"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setOnWheelChangeListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.itheima.wheelpicker.WheelPicker.OnWheelChangeListener"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setSameWidth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setSelectedItemPosition" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setSelectedItemTextColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setTypeface" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.graphics.Typeface"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setVisibleItemCount" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="android.view.View" extends-generic-aware="android.view.View" final="false" name="WheelPicker" static="false" visibility="public">
+      <implements name="com.itheima.wheelpicker.IDebug" name-generic-aware="com.itheima.wheelpicker.IDebug"></implements>
+      <implements name="com.itheima.wheelpicker.IWheelPicker" name-generic-aware="com.itheima.wheelpicker.IWheelPicker"></implements>
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable"></implements>
+      <constructor deprecated="not deprecated" final="false" name="WheelPicker" static="false" type="com.itheima.wheelpicker.WheelPicker" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="WheelPicker" static="false" type="com.itheima.wheelpicker.WheelPicker" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="android.util.AttributeSet"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCurrentItemPosition" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCurtainColor" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getData" native="false" return="java.util.List" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIndicatorColor" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIndicatorSize" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getItemAlign" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getItemSpace" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getItemTextColor" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getItemTextSize" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMaximumWidthText" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMaximumWidthTextPosition" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSelectedItemPosition" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSelectedItemTextColor" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTypeface" native="false" return="android.graphics.Typeface" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getVisibleItemCount" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hasAtmospheric" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hasCurtain" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hasIndicator" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hasSameWidth" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isCurved" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isCyclic" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAtmospheric" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurtain" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurtainColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurved" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCyclic" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setData" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.List"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDebug" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIndicator" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIndicatorColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIndicatorSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setItemAlign" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setItemSpace" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setItemTextColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setItemTextSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMaximumWidthText" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMaximumWidthTextPosition" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnItemSelectedListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.itheima.wheelpicker.WheelPicker.OnItemSelectedListener"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnWheelChangeListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.itheima.wheelpicker.WheelPicker.OnWheelChangeListener"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSameWidth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSelectedItemPosition" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSelectedItemTextColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTypeface" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.graphics.Typeface"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setVisibleItemCount" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="ALIGN_CENTER" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="ALIGN_LEFT" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="ALIGN_RIGHT" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="SCROLL_STATE_DRAGGING" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="SCROLL_STATE_IDLE" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="SCROLL_STATE_SCROLLING" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false"></field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="WheelPicker.OnItemSelectedListener" static="true" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onItemSelected" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.itheima.wheelpicker.WheelPicker"></parameter>
+        <parameter name="p1" type="java.lang.Object"></parameter>
+        <parameter name="p2" type="int"></parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="WheelPicker.OnWheelChangeListener" static="true" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onWheelScrollStateChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onWheelScrolled" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onWheelSelected" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+    </interface>
+  </package>
+  <package name="com.itheima.wheelpicker.model">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="City" static="false" visibility="public">
+      <implements name="java.io.Serializable" name-generic-aware="java.io.Serializable"></implements>
+      <constructor deprecated="not deprecated" final="false" name="City" static="false" type="com.itheima.wheelpicker.model.City" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getArea" native="false" return="java.util.List&lt;java.lang.String&gt;" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getName" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setArea" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.List&lt;java.lang.String&gt;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setName" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="area" static="false" transient="false" type="java.util.List" type-generic-aware="java.util.List&lt;java.lang.String&gt;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="name" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Province" static="false" visibility="public">
+      <implements name="java.io.Serializable" name-generic-aware="java.io.Serializable"></implements>
+      <constructor deprecated="not deprecated" final="false" name="Province" static="false" type="com.itheima.wheelpicker.model.Province" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCity" native="false" return="java.util.List&lt;com.itheima.wheelpicker.model.City&gt;" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getName" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCity" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.List&lt;com.itheima.wheelpicker.model.City&gt;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setName" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="city" static="false" transient="false" type="java.util.List" type-generic-aware="java.util.List&lt;com.itheima.wheelpicker.model.City&gt;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="name" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="com.itheima.wheelpicker.widgets">
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IWheelAreaPicker" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getArea" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getCity" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getProvince" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="hideArea" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IWheelDatePicker" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getCurrentDate" native="false" return="java.util.Date" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getItemAlignDay" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getItemAlignMonth" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getItemAlignYear" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getTextViewDay" native="false" return="android.widget.TextView" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getTextViewMonth" native="false" return="android.widget.TextView" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getTextViewYear" native="false" return="android.widget.TextView" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getWheelDayPicker" native="false" return="com.itheima.wheelpicker.widgets.WheelDayPicker" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getWheelMonthPicker" native="false" return="com.itheima.wheelpicker.widgets.WheelMonthPicker" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getWheelYearPicker" native="false" return="com.itheima.wheelpicker.widgets.WheelYearPicker" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setItemAlignDay" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setItemAlignMonth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setItemAlignYear" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setOnDateSelectedListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.itheima.wheelpicker.widgets.WheelDatePicker.OnDateSelectedListener"></parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IWheelDayPicker" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getCurrentDay" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getMonth" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getSelectedDay" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getYear" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setMonth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setSelectedDay" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setYear" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setYearAndMonth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+        <parameter name="p1" type="int"></parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IWheelMonthPicker" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getCurrentMonth" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getSelectedMonth" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setSelectedMonth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IWheelYearPicker" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getCurrentYear" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getSelectedYear" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getYearEnd" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getYearStart" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setSelectedYear" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setYearEnd" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setYearFrame" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+        <parameter name="p1" type="int"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setYearStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.LinearLayout" extends-generic-aware="android.widget.LinearLayout" final="false" name="WheelAreaPicker" static="false" visibility="public">
+      <implements name="com.itheima.wheelpicker.widgets.IWheelAreaPicker" name-generic-aware="com.itheima.wheelpicker.widgets.IWheelAreaPicker"></implements>
+      <constructor deprecated="not deprecated" final="false" name="WheelAreaPicker" static="false" type="com.itheima.wheelpicker.widgets.WheelAreaPicker" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="android.util.AttributeSet"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getArea" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCity" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getProvince" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hideArea" native="false" return="void" static="false" synchronized="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WheelAreaPicker.1" static="false" visibility="">
+      <implements name="com.itheima.wheelpicker.WheelPicker.OnItemSelectedListener" name-generic-aware="com.itheima.wheelpicker.WheelPicker.OnItemSelectedListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onItemSelected" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.itheima.wheelpicker.WheelPicker"></parameter>
+        <parameter name="p1" type="java.lang.Object"></parameter>
+        <parameter name="p2" type="int"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WheelAreaPicker.2" static="false" visibility="">
+      <implements name="com.itheima.wheelpicker.WheelPicker.OnItemSelectedListener" name-generic-aware="com.itheima.wheelpicker.WheelPicker.OnItemSelectedListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onItemSelected" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.itheima.wheelpicker.WheelPicker"></parameter>
+        <parameter name="p1" type="java.lang.Object"></parameter>
+        <parameter name="p2" type="int"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.LinearLayout" extends-generic-aware="android.widget.LinearLayout" final="false" name="WheelDatePicker" static="false" visibility="public">
+      <implements name="com.itheima.wheelpicker.IDebug" name-generic-aware="com.itheima.wheelpicker.IDebug"></implements>
+      <implements name="com.itheima.wheelpicker.IWheelPicker" name-generic-aware="com.itheima.wheelpicker.IWheelPicker"></implements>
+      <implements name="com.itheima.wheelpicker.WheelPicker.OnItemSelectedListener" name-generic-aware="com.itheima.wheelpicker.WheelPicker.OnItemSelectedListener"></implements>
+      <implements name="com.itheima.wheelpicker.widgets.IWheelDatePicker" name-generic-aware="com.itheima.wheelpicker.widgets.IWheelDatePicker"></implements>
+      <implements name="com.itheima.wheelpicker.widgets.IWheelDayPicker" name-generic-aware="com.itheima.wheelpicker.widgets.IWheelDayPicker"></implements>
+      <implements name="com.itheima.wheelpicker.widgets.IWheelMonthPicker" name-generic-aware="com.itheima.wheelpicker.widgets.IWheelMonthPicker"></implements>
+      <implements name="com.itheima.wheelpicker.widgets.IWheelYearPicker" name-generic-aware="com.itheima.wheelpicker.widgets.IWheelYearPicker"></implements>
+      <constructor deprecated="not deprecated" final="false" name="WheelDatePicker" static="false" type="com.itheima.wheelpicker.widgets.WheelDatePicker" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="WheelDatePicker" static="false" type="com.itheima.wheelpicker.widgets.WheelDatePicker" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="android.util.AttributeSet"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCurrentDate" native="false" return="java.util.Date" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCurrentDay" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="deprecated" final="false" name="getCurrentItemPosition" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCurrentMonth" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCurrentYear" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCurtainColor" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="deprecated" final="false" name="getData" native="false" return="java.util.List" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIndicatorColor" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIndicatorSize" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="deprecated" final="false" name="getItemAlign" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getItemAlignDay" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getItemAlignMonth" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getItemAlignYear" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getItemSpace" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getItemTextColor" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getItemTextSize" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="deprecated" final="false" name="getMaximumWidthText" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="deprecated" final="false" name="getMaximumWidthTextPosition" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMonth" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSelectedDay" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="deprecated" final="false" name="getSelectedItemPosition" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSelectedItemTextColor" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSelectedMonth" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSelectedYear" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTextViewDay" native="false" return="android.widget.TextView" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTextViewMonth" native="false" return="android.widget.TextView" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTextViewYear" native="false" return="android.widget.TextView" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTypeface" native="false" return="android.graphics.Typeface" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getVisibleItemCount" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getWheelDayPicker" native="false" return="com.itheima.wheelpicker.widgets.WheelDayPicker" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getWheelMonthPicker" native="false" return="com.itheima.wheelpicker.widgets.WheelMonthPicker" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getWheelYearPicker" native="false" return="com.itheima.wheelpicker.widgets.WheelYearPicker" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getYear" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getYearEnd" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getYearStart" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hasAtmospheric" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hasCurtain" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hasIndicator" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="deprecated" final="false" name="hasSameWidth" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isCurved" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isCyclic" native="false" return="boolean" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onItemSelected" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.itheima.wheelpicker.WheelPicker"></parameter>
+        <parameter name="p1" type="java.lang.Object"></parameter>
+        <parameter name="p2" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAtmospheric" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurtain" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurtainColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurved" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCyclic" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="false" name="setData" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.List"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDebug" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIndicator" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIndicatorColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIndicatorSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="false" name="setItemAlign" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setItemAlignDay" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setItemAlignMonth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setItemAlignYear" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setItemSpace" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setItemTextColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setItemTextSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="false" name="setMaximumWidthText" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="false" name="setMaximumWidthTextPosition" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMonth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnDateSelectedListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.itheima.wheelpicker.widgets.WheelDatePicker.OnDateSelectedListener"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="false" name="setOnItemSelectedListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.itheima.wheelpicker.WheelPicker.OnItemSelectedListener"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="false" name="setOnWheelChangeListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.itheima.wheelpicker.WheelPicker.OnWheelChangeListener"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="false" name="setSameWidth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSelectedDay" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="deprecated" final="false" name="setSelectedItemPosition" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSelectedItemTextColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSelectedMonth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSelectedYear" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTypeface" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.graphics.Typeface"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setVisibleItemCount" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setYear" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setYearAndMonth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+        <parameter name="p1" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setYearEnd" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setYearFrame" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+        <parameter name="p1" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setYearStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="WheelDatePicker.OnDateSelectedListener" static="true" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onDateSelected" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.itheima.wheelpicker.widgets.WheelDatePicker"></parameter>
+        <parameter name="p1" type="java.util.Date"></parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="com.itheima.wheelpicker.WheelPicker" extends-generic-aware="com.itheima.wheelpicker.WheelPicker" final="false" name="WheelDayPicker" static="false" visibility="public">
+      <implements name="com.itheima.wheelpicker.widgets.IWheelDayPicker" name-generic-aware="com.itheima.wheelpicker.widgets.IWheelDayPicker"></implements>
+      <constructor deprecated="not deprecated" final="false" name="WheelDayPicker" static="false" type="com.itheima.wheelpicker.widgets.WheelDayPicker" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="WheelDayPicker" static="false" type="com.itheima.wheelpicker.widgets.WheelDayPicker" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="android.util.AttributeSet"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCurrentDay" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMonth" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSelectedDay" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getYear" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMonth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSelectedDay" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setYear" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setYearAndMonth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+        <parameter name="p1" type="int"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.itheima.wheelpicker.WheelPicker" extends-generic-aware="com.itheima.wheelpicker.WheelPicker" final="false" name="WheelMonthPicker" static="false" visibility="public">
+      <implements name="com.itheima.wheelpicker.widgets.IWheelMonthPicker" name-generic-aware="com.itheima.wheelpicker.widgets.IWheelMonthPicker"></implements>
+      <constructor deprecated="not deprecated" final="false" name="WheelMonthPicker" static="false" type="com.itheima.wheelpicker.widgets.WheelMonthPicker" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="WheelMonthPicker" static="false" type="com.itheima.wheelpicker.widgets.WheelMonthPicker" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="android.util.AttributeSet"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCurrentMonth" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSelectedMonth" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSelectedMonth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.itheima.wheelpicker.WheelPicker" extends-generic-aware="com.itheima.wheelpicker.WheelPicker" final="false" name="WheelYearPicker" static="false" visibility="public">
+      <implements name="com.itheima.wheelpicker.widgets.IWheelYearPicker" name-generic-aware="com.itheima.wheelpicker.widgets.IWheelYearPicker"></implements>
+      <constructor deprecated="not deprecated" final="false" name="WheelYearPicker" static="false" type="com.itheima.wheelpicker.widgets.WheelYearPicker" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="WheelYearPicker" static="false" type="com.itheima.wheelpicker.widgets.WheelYearPicker" visibility="public">
+        <parameter name="p0" type="android.content.Context"></parameter>
+        <parameter name="p1" type="android.util.AttributeSet"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCurrentYear" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSelectedYear" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getYearEnd" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getYearStart" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSelectedYear" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setYearEnd" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setYearFrame" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+        <parameter name="p1" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setYearStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int"></parameter>
+      </method>
+    </class>
+  </package>
+</api>
